@@ -154,20 +154,31 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Obsidian零基础使用/Obsidian零基础使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Obsidian零基础使用 的大纲"
+            }
+          },
+          {
+            "id": "66bb30f336891db9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "593a7c4625b356a4",
+  "active": "b064d99be7f5ad58",
   "lastOpenFiles": [
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-10-02.png",
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-08-50.png",
