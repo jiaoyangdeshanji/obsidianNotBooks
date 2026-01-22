@@ -106,7 +106,7 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 	1.打开本地仓库选择刚刚克隆的文件夹
 		.obsidian文件夹:Obisidian的配置文件夹
 	2.把.obsidian文件夹中的workspace.json文件从git管理中排除出去(也就是不上传到github上)
-		workspace.json记录了当前工作区的状态(bi)
+		workspace.json记录了当前工作区的状态()
 ```
 
 # 题外
