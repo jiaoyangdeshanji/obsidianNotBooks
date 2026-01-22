@@ -88,9 +88,30 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 #### 4.效果
 我们把本地图片拖拽进Obsidian来，可以看到图片的路径，同时可以在[]内的填入数字改变图片尺寸
 ![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-21-44.png)
+
+# 2.云同步
+```
+	Obsidian本身是没有云同步功能的,但是我们通过GitHub来实现
+```
+1.配置
+1.github配置
+```
+	1.创建新的仓库
+		注意:如何不想别人看到你的笔记,在仓库的visibility的选项为private
+		
+	2.把远程仓库克隆到本地
+```
+2.Obisidian配置
+```
+	1.打开本地仓库选择刚刚克隆的文件夹
+		.obsidian文件夹:Obisidian的配置文件夹
+	2.把.obsidian文件夹中的workspace.json文件从git管理中排除出去(也就是不上传到github上)
+		workspace.json记录了当前工作区的状态(bi)
+```
+
 # 题外
 ## 1.Markdown语法基础
-
+```
 Markdown是一种轻量级标记语言，在Obsidian中用于排版笔记内容。以下是常用的Markdown语法
 ### 1.标题分级
 使用`#`符号创建不同级别的标题，`#`的数量决定标题级别：

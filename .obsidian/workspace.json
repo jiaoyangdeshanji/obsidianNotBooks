@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "01e17e0b07c8621c",
@@ -192,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b064d99be7f5ad58",
+  "active": "593a7c4625b356a4",
   "lastOpenFiles": [
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-10-02.png",
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-08-50.png",
