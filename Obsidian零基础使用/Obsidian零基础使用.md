@@ -179,6 +179,10 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 	2.安装Gemini CLI(官网:https://geminicli.com/)
 		在终端执行安装命令
 		
+	3.启动Gemini
+		终端输入Gemini
+		选择login with google 用你的Google账号进行授权
+		
 ```
 
  
