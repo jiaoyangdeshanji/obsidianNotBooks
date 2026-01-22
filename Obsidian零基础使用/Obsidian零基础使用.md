@@ -91,8 +91,9 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 
 # 2.云同步
 ```
-	Obsidian本身是没有云同步功能的,但是我们通过GitHub来实现
+	Obsidian本身是没有云同步功能的,但是我们通过GitHub,网盘,硬盘(冷备份)来实现
 ```
+## 1.GitHub
 1.配置
 1.github配置
 ```
@@ -105,13 +106,95 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 ```
 	1.打开本地仓库选择刚刚克隆的文件夹
 		.obsidian文件夹:Obisidian的配置文件夹
+		
 	2.
 		把.obsidian文件夹中的workspace.json文件从git管理中排除出去(也就是不上传到github上)
 		workspace.json记录了当前工作区的状态(比如打开了哪些笔记,当前的页面布局),它会被频繁的修改,如果把它上传到git上面,很容易造成冲突
 		
 		操作
 			在克隆的文件夹里面增加.gitignore文件并增加下面两行即可实现排除
+			.obsidian/workspace.json
+			.obsidian/workspace-mobile.json
+			
+	3.自动提交
+		到这里 你每次写完笔记,commit push 就可把笔记同步到github上,实现云同步
+		但是麻烦
+		
+		实现自动
+			1.Obsidian安装git插件
+				(关闭安全模式)
+			2.配置git插件
+				1.auto commit-and-sync after stoping file edits -- 打开
+				(停止编写笔记的时候,它就会尝试自动往GITHUB上面同步一次)
+				2.auto commit-and-sync interval(minutes) -- X分钟
+				(当我们停止编写文件X分钟以后,	1.打开本地仓库选择刚刚克隆的文件夹
+		.obsidian文件夹:Obisidian的配置文件夹
+		
+	2.
+		把.obsidian文件夹中的workspace.json文件从git管理中排除出去(也就是不上传到github上)
+		workspace.json记录了当前工作区的状态(比如打开了哪些笔记,当前的页面布局),它会被频繁的修改,如果把它上传到git上面,很容易造成冲突
+		
+		操作
+			在克隆的文件夹里面增加.gitignore文件并增加下面两行即可实现排除
+			.obsidian/workspace.json
+			.obsidian/workspace-mobile.json
+			
+	3.自动提交
+		到这里 你每次写完笔记,commit push 就可把笔记同步到github上,实现云同步
+		但是麻烦
+		
+		实现自动
+			1.Obsidian安装git插件
+				(关闭安全模式)
+				
+			2.配置git插件
+				1.auto commit-and-sync after stoping file edits -- 打开
+				(停止编写笔记的时候,它就会尝试自动往GITHUB上面同步一次)
+				
+				2.auto commit-and-sync interval(minutes) -- X分钟
+				(当我们停止编写文件X分钟以后,obsidian就会自动往GITHUB上面提交一次)
+				
+				3.pull on statup -- 打开
+				(每当我们启动Obsidian时,先去GITHUB上面pull一下,看看有没有新的改动,保持我们的本地文件跟GITHUB上面的同步)
+		
+			
 ```
+
+# 3.AI
+```
+	Obsidian本身并不提供任何的AI功能,但有两种方式接入AI
+```
+## 1.接入AI方式
+### 1.社区的AI插件
+### 2.AI编程工具 --推荐
+```
+	AI编程工具(claude code/Gemini CLI等)
+	对比社区AI插件对比
+		AI编程工具的"产品功能"以及AI"模型的适配度"上肯定要好于社区插件,AI编程工具与文件系统的交互是它们的"核心能力"(擅长文件处理),所以他们处理一个个markdown格式的笔记会非常的得心应手
+```
+#### 1.Gemini CLI
+
+```
+	1.安装node.js
+	2.安装Gemini CLI(官网:https://geminicli.com/)
+		在终端执行安装命令
+		
+```
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 题外
 ## 1.Markdown语法基础
@@ -120,11 +203,14 @@ Markdown是一种轻量级标记语言，在Obsidian中用于排版笔记内容�
 ### 1.标题分级
 使用`#`符号创建不同级别的标题，`#`的数量决定标题级别：
 ```
+
+
+```
 # 一级标题 
 ## 二级标题 
 ### 三级标题 
 #### 四级标题
-```
+
 ### 2.文本格式化
 #### 1.加粗文本
 使用两个星号包裹文字,如下
