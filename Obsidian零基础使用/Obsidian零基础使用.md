@@ -105,8 +105,12 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 ```
 	1.打开本地仓库选择刚刚克隆的文件夹
 		.obsidian文件夹:Obisidian的配置文件夹
-	2.把.obsidian文件夹中的workspace.json文件从git管理中排除出去(也就是不上传到github上)
-		workspace.json记录了当前工作区的状态()
+	2.
+		把.obsidian文件夹中的workspace.json文件从git管理中排除出去(也就是不上传到github上)
+		workspace.json记录了当前工作区的状态(比如打开了哪些笔记,当前的页面布局),它会被频繁的修改,如果把它上传到git上面,很容易造成冲突
+		
+		操作
+			在克隆的文件夹里面增加.gitignore文件并增加下面两行
 ```
 
 # 题外
