@@ -70,7 +70,7 @@ git clone 你的库地址
 
 ### 2.图片插件
 #### 1.安装
-我们在写文档的时候必定会使用很多图片，默认的图片，不是按照md语法渲染的，不好用，然后图片放置也很随意，我们需要安装下面这个插件,插件市场搜索 Custom attachment 安装然后启动![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-05-46.png)
+我们在写文档的时候必定会使用很多图片，默认的图片，不是按照md语法渲染的，不好用，然后图片放置也很随意，我们需要安装下面这个插件,插件市场搜索 Custom attachment Location(自定义附件存储位置)安装然后启动![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-05-46.png)
 
 #### 2.配置
 ![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-07-34.png)
@@ -85,6 +85,9 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 ![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-08-50.png)
 3. 点击文件与链接也需要改下面两个
 ![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-10-02.png)
+```
+	结果Obisidian为我们在笔记同目录生成assets文件夹,创建了一个跟我笔记同名的子文件夹,然后他把图片附件都放到了这个下面
+```
 #### 4.效果
 我们把本地图片拖拽进Obsidian来，可以看到图片的路径，同时可以在[]内的填入数字改变图片尺寸
 ![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-21-44.png)
@@ -191,7 +194,10 @@ assets/${noteFileName}/${generatedAttachmentFileName}
  # 4.高价功能
 ## 1.图像与附件
 ```
-	
+	Obisidian可以插入图片,但是不好用,因为
+	1.他会把图片放进笔记同级别目录,后面多了就乱
+	2.图片链接并不是标准的markdown语法,导致在使用别的软件无法读取,同步到github
+	github无法显示
 ```
 2.
 
