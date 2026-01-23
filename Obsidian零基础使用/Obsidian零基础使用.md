@@ -203,6 +203,7 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 1.手机下载Obsidian软件
 2.
 3.导出
+1.安装
 4.双向链接与知识图谱
 
 
