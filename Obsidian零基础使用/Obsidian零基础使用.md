@@ -203,6 +203,10 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 1.手机下载Obsidian软件
 2.
 3.导出
+	1.安装Enhancing export插件
+	2.Enhancing export插件配置
+		1.去github上安装pandoc软件(文件格式转换工具)
+		 2.把pandoc.exe路径配置到Enhancing export上
 1.安装
 4.双向链接与知识图谱
 
