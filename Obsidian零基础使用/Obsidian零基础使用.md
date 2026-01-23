@@ -90,7 +90,7 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 ```
 #### 4.效果
 我们把本地图片拖拽进Obsidian来，可以看到图片的路径，同时可以在[]内的填入数字改变图片尺寸
-![](assets/Obsidian零基础使用/Snipaste_2026-01-16_15-21-44.png)
+ 
 
 # 2.云同步
 ```
@@ -199,7 +199,11 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 	2.图片链接并不是标准的markdown语法,导致在使用别的软件无法读取,同步到github
 	github无法显示
 ```
+2.手机登录
+1.手机下载Obsidian软件
 2.
+3.导出
+4.双向链接与知识图谱
 
 
 
