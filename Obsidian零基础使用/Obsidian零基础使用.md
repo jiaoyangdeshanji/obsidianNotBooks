@@ -199,16 +199,20 @@ assets/${noteFileName}/${generatedAttachmentFileName}
 	2.图片链接并不是标准的markdown语法,导致在使用别的软件无法读取,同步到github
 	github无法显示
 ```
-2.手机登录
+## 2.手机登录
 1.手机下载Obsidian软件
 2.
-3.导出
+## 3.导出
 	1.安装Enhancing export插件
 	2.Enhancing export插件配置
 		1.去github上安装pandoc软件(文件格式转换工具)
 		 2.把pandoc.exe路径配置到Enhancing export上
 1.安装
-4.双向链接与知识图谱
+## 4.双向链接与知识图谱
+```
+	双向链接:两对方括号中填写另一篇笔记的名字,即可跳转
+	知识图谱:在左侧栏有个"查看关系图谱" 只要两个笔记之间做过关联,它们就会以一条线的形式连接出来,可以帮助我们对知识进行高效的归纳整理,还能有助于帮我们发现以及之间隐藏的关联
+```
 
 
 
