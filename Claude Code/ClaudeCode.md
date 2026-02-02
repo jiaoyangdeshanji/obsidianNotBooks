@@ -36,3 +36,8 @@
 	在具体开发过程中，采用 TDD + 验证循环的方式：通过 /tdd 命令让 Claude 按 RED → GREEN → REFACTOR → VERIFY 的流程推进开发。
 
 4.
+	用 /verify 执行实现验证、对比和边界分析，在关键里程碑使用 /checkpoint 记录思路快照和当前状态，既方便回滚，也方便日后回顾设计决策。
+5.
+	在质量与长期维护方面，日常多用 /code-review 命令，请专门的 review/safety agent 进行代码与安全审查，再配合 hooks 自动执行如清理 console.log、生成会话总结等后台任务。
+6.
+	对于中长期项目，则结合 continuous-learning/ 和 strategic-compact/ 相关 skills 与 hooks，让 Claude 持续积累项目记忆，并在上下文接近上限前做有策略的压缩，保证长期协作的连贯性与效率
