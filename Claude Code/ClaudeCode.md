@@ -1,10 +1,11 @@
 1.安装
-2.agent
-3.skills
-4.hooks
-5.快捷命令
+2.agents(子代理)
+3.skills(技能)
+4.hooks(钩子)
+5.commands(命令)
 6.规则
 7.MCP配置
+8.插件
 
 8.项目开发流程
 
@@ -24,3 +25,14 @@
 通过配置 MCP 工具，比如 GitHub MCP, Supabase MCP等。
 
 让 Claude 直接操作数据库和代码仓库。这意味着他们几乎不需要手动去数据库建表或在 IDE 之间来回切换，极大缩短了开发周期
+
+项目开发
+1.新项目启动阶段:
+	用/plan命令调用planner/architect 等 agents，帮助梳理目标功能、选择技术栈并划分模块边界。
+	
+2.启用 coding-style.md、security.md、testing.md 等规则文件，把团队统一的编码规范、安全要求和测试标准固化下来，让后续所有对话和生成代码都在同一工程轨道上运行
+
+3.
+	在具体开发过程中，采用 TDD + 验证循环的方式：通过 /tdd 命令让 Claude 按 RED → GREEN → REFACTOR → VERIFY 的流程推进开发。
+
+4.
