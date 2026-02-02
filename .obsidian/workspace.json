@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Claude Code/ClaudeCode.md",
+                "file": "考公/行测/言语.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ClaudeCode"
+              "title": "言语"
             }
           }
         ],
@@ -207,12 +207,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8881408298de08db",
+  "active": "8660ed02ffea7232",
   "lastOpenFiles": [
+    "Claude Code/ClaudeCode.md",
+    "考公/行测/言语.md",
+    "考公/申论",
+    "考公/行测",
     "未命名",
     "考公",
     "未命名.md",
-    "Claude Code/ClaudeCode.md",
     "Obsidian零基础使用/Obsidian零基础使用.md",
     "Claude Code",
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-10-02.png",
