@@ -35,6 +35,7 @@ C:\Users\boss\.config\opencode
 | /unshare  | 网页地址失效                                                                                            |
 | /export   | 把所有窗口对话记录做成文件输出                                                                                   |
 | /timeline | 时间线/检查点,看到对于AI聊天的时间节点,选择某个对话记录,<br>选择'revert undo messages and file changes'把代码跟聊天内容一起回滚这次对话之前的状态 |
+| /mcp      | 查看已安装的mcp                                                                                         |
 |           |                                                                                                   |
 
 # 3.接入其他模型方式
@@ -51,8 +52,8 @@ C:\Users\boss\.config\opencode
 ## 2.codex
 	安装
 
-3.open router
-4.亮点
+## 3.open router
+# 4.亮点
 1.先做开发计划,分步完成
 
 ```
@@ -66,7 +67,7 @@ C:\Users\boss\.config\opencode
 在第一个功能实现过程中,我们输入/new命令打开一个新的窗口,然后输入第二个功能的需求后,输入/session命令,就可以看到正在运行的任务数量,任务名称前面在打转的符号(表示它正在后台运行)
 2.share
 
-MCP
+# 5.MCP
 1.local -- 本地命令执行
 进入opencode的安装目录(C:\Users\boss\.config\opencode)打开opencode.json文件在里面输入
 
@@ -78,8 +79,9 @@ MCP
 "$schema": "https://opencode.ai/config.json",
 
 "mcp": {
+--本地本地命令执行方式
 
-"mcp的名字": {
+"第一个mcp的名字": {
 
 "type": "local",
 
@@ -100,7 +102,23 @@ MCP
 },
 
 },
+--远程方式
+"第二个mcp的名字": {
+
+"jira": {
+
+"type": "remote",
+
+"url": "https://jira.example.com/mcp",
+
+"enabled": true
+
+}
+
+}
 
 }
 
 ```
+# 6.推荐插件
+1.
