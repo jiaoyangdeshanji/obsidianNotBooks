@@ -3,7 +3,13 @@
 
 # 1.形态
 ## 1.命令行
-
+1.安装
+2.开启
+在终端输入opencode命令,即可进入opencode
+```
+	opencode
+```
+即可开启
 2.桌面客户端 -- 不推荐
 	BUG多
 
@@ -14,3 +20,12 @@
 
 
 4.云端运行环境
+# 2.命令
+
+|         |                      |
+| ------- | -------------------- |
+| /models | 查看模型,带free标签的都是免费使用的 |
+
+# 6.推荐插件
+1.opencode-antigravity-auth
+	把Gemini 3 pro和Claude 4.0 Opus两个顶级模型免费的接入入open code里面使用
