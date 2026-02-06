@@ -28,7 +28,7 @@
 
 # 3.接入其他模型方式
 ```
-	使用/connect cah'k
+	使用/connect 查看大模型接入的方式
 ```
 ## 1.Gemini 3 pro和Claude 4.0
 
@@ -40,3 +40,4 @@
 ## 2.codex
 	安装
 
+3.open router
