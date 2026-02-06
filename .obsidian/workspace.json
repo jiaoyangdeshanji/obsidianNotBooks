@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考公/行测/3.言语理解与表达.md",
+                "file": "出外/开平.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "3.言语理解与表达 的出链列表"
+              "title": "开平 的出链列表"
             }
           },
           {
@@ -175,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -193,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ce51b8e2c83e370",
+  "active": "481daaf727f47e2a",
   "lastOpenFiles": [
+    "AI/tools",
+    "AI",
     "考公/行测/3.言语理解与表达.md",
     "出外/开平.md",
     "出外",
@@ -211,12 +213,11 @@
     "考公/行测/assets/3.言语理解与表达/file-20260202162447619.png",
     "考公/行测/assets/言语",
     "考公/行测/assets",
-    "Claude Code/ClaudeCode.md",
+    "AI/tools/Claude Code/ClaudeCode.md",
     "考公/申论",
     "考公/行测",
     "考公",
     "未命名.md",
-    "Claude Code",
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-10-02.png",
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-08-50.png",
     "Obsidian零基础使用/assets/Obsidian零基础使用/Snipaste_2026-01-16_15-07-34.png",
