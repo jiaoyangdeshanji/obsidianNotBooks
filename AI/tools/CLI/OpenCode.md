@@ -29,3 +29,7 @@
 # 6.推荐插件
 1.opencode-antigravity-auth
 	把Gemini 3 pro和Claude 4.0 Opus两个顶级模型免费的接入入open code里面使用
+安装
+在github复制安装命令
+把命复制到opencode对话框,让AI帮忙安装
+
