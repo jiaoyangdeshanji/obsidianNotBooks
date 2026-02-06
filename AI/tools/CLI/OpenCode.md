@@ -27,9 +27,9 @@
 | /models | 查看模型,带free标签的都是免费使用的 |
 
 # 6.推荐插件
-1.opencode-antigravity-auth
+## 1.opencode-antigravity-auth
 	把Gemini 3 pro和Claude 4.0 Opus两个顶级模型免费的接入入open code里面使用
-安装
-在github复制安装命令
-把命复制到opencode对话框,让AI帮忙安装
+### 安装
+1.在github复制安装命令
+2.把命复制到opencode对话框,让AI帮忙安装
 
