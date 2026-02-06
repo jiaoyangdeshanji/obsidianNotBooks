@@ -9,7 +9,10 @@
 ```
 	opencode
 ```
-即可开启
+安装目录
+```
+C:\Users\boss\.config\opencode
+```
 2.桌面客户端 -- 不推荐
 	BUG多
 
@@ -63,4 +66,41 @@
 在第一个功能实现过程中,我们输入/new命令打开一个新的窗口,然后输入第二个功能的需求后,输入/session命令,就可以看到正在运行的任务数量,任务名称前面在打转的符号(表示它正在后台运行)
 2.share
 
+MCP
+1.local -- 本地命令执行
+进入opencode的安装目录(C:\Users\boss\.config\opencode)打开opencode.json文件在里面输入
 
+2.remote -- 远程调用
+
+```
+{
+
+"$schema": "https://opencode.ai/config.json",
+
+"mcp": {
+
+"mcp的名字": {
+
+"type": "local",
+
+// Or ["bun", "x", "my-mcp-command"]
+
+"command": ["npx", "-y", "my-mcp-command"],
+--启动
+
+"enabled": true,
+--环境变量
+
+"environment": {
+
+"MY_ENV_VAR": "my_env_var_value",
+
+},
+
+},
+
+},
+
+}
+
+```

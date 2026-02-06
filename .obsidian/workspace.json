@@ -193,12 +193,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b064d99be7f5ad58",
+  "active": "8ce51b8e2c83e370",
   "lastOpenFiles": [
+    "AI/tools/Skills.md",
+    "AI/tools/MCP.md",
     "AI/tools/IDE/Antigravity.md",
     "AI/tools/CLI/OpenCode.md",
-    "AI/tools/IDE",
     "AI/tools/CLI/ClaudeCode.md",
+    "AI/tools/IDE",
     "AI/tools/CLI",
     "出外/开平.md",
     "AI/tools",
