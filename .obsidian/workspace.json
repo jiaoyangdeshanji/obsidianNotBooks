@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "出外/未命名.md",
+                "file": "出外/开平.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "开平"
             }
           }
         ]
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "出外/未命名.md",
+                "file": "出外/开平.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "开平 的大纲"
             }
           },
           {
@@ -196,7 +196,7 @@
   "active": "8ce51b8e2c83e370",
   "lastOpenFiles": [
     "考公/行测/3.言语理解与表达.md",
-    "出外/未命名.md",
+    "出外/开平.md",
     "出外",
     "考公/行测/6.资料分析.md",
     "考公/行测/5.判断推理.md",
