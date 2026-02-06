@@ -175,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -193,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ce51b8e2c83e370",
+  "active": "b064d99be7f5ad58",
   "lastOpenFiles": [
     "AI/tools/CLI/ClaudeCode.md",
     "AI/tools/CLI/OpenCode.md",
