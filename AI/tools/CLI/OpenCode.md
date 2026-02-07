@@ -121,4 +121,4 @@ C:\Users\boss\.config\opencode
 
 ```
 # 6.推荐插件
-1.
+1.oh my o'p'ne
