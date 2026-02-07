@@ -121,4 +121,5 @@ C:\Users\boss\.config\opencode
 
 ```
 # 6.推荐插件
-1.oh my o'p'ne
+1.oh my openCode
+本质上就是一系列的工具加MCP,加编程agent的组合捆绑包
