@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "OpenCode"
             }
+          },
+          {
+            "id": "620fc5d4e3af3f41",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,13 +168,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/tools/CLI/OpenCode.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "OpenCode 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -193,7 +205,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ce51b8e2c83e370",
+  "active": "620fc5d4e3af3f41",
   "lastOpenFiles": [
     "AI/tools/Skills.md",
     "AI/tools/MCP.md",
