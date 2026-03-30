@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "省考"
             }
+          },
+          {
+            "id": "53be1aeb71dd3543",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -193,7 +206,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ce51b8e2c83e370",
+  "active": "53be1aeb71dd3543",
   "lastOpenFiles": [
     "随机/未命名.md",
     "考公/信息/省考.md",
